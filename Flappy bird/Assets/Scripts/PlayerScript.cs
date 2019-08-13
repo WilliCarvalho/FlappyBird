@@ -21,9 +21,10 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             //Reatribui o valor da gravidade
-            if (Config.jogando == false)
+            if (Config.jogando == false && !Config.jogando)
             {
                 rb.gravityScale = 1.0f;
+                Config.jogando = true;
             }
             impulsionar = true;
         }
