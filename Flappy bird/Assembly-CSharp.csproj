@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Config.cs" />
     <Compile Include="Assets\Scripts\FloorScript.cs" />
     <Compile Include="Assets\Scripts\PipeScript.cs" />
+    <Compile Include="Assets\Scripts\PlacarScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/logonrmlocal/Desktop/FlappyBird/Flappy bird/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

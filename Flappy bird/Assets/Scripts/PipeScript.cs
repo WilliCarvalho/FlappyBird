@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PipeScript : MonoBehaviour
 {
@@ -9,7 +8,6 @@ public class PipeScript : MonoBehaviour
     public float limiteSuperior;
     private float posicaoInicialX;
     private float limiteX;
-    public Text pt;
     
     // Start is called before the first frame update
     void Start()
@@ -38,7 +36,6 @@ public class PipeScript : MonoBehaviour
     void OnTriggerExit2D(Collider2D c)
     {
         Config.pontos++;
-        pt.text = Config.pontos.ToString();
     }
 
 
