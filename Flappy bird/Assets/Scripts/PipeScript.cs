@@ -33,11 +33,6 @@ public class PipeScript : MonoBehaviour
         }
     }
 
-    void OnTriggerExit2D(Collider2D c)
-    {
-        Config.pontos++;
-    }
-
 
     float AlterarAltura(float i, float s)
     {
